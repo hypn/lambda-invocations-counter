@@ -87,7 +87,7 @@ ap.add_argument('-f', '--filter', help='string to match in Lambda functions to r
 ap.add_argument('-m', '--minutes', type=int, help='minutes of window period to measure (1440 for 24 hours)')
 ap.add_argument('-t', '--top', type=int, help='number of top results to return')
 ap.add_argument('-v', '--verbose', action='store_const', const=True, help='display some progress info')
-ap.add_argument('-z', '--zeros', action='store_const', const=True, help='display some progress info')
+ap.add_argument('-z', '--zeros', action='store_const', const=True, help='return results with 0 invocations')
 args = vars(ap.parse_args())
 
 # default settings:

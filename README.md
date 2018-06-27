@@ -18,7 +18,7 @@ It makes use of the popular "Boto3" library and expects your local environment t
 	                        hours)
 	  -t TOP, --top TOP     number of top results to return
 	  -v, --verbose         display some progress info
-	  -z, --zeros           display some progress info
+	  -z, --zeros           return results with 0 invocations
 
 ## Example:
 
