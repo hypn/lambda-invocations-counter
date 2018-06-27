@@ -5,7 +5,8 @@ It makes use of the popular "Boto3" library and expects your local environment t
 
 ## Usage:
 
-	python count-invocations.py -h
+	~$ python count-invocations.py -h
+
 	usage: count-invocations.py [-h] [-f FILTER] [-m MINUTES] [-t TOP] [-v] [-z]
 
 	optional arguments:
@@ -22,7 +23,8 @@ It makes use of the popular "Boto3" library and expects your local environment t
 
 ## Example:
 
-	python count-invocations.py -f prod -m 2 -t 10 -v -z
+	~$ python count-invocations.py -f prod -m 2 -t 10 -v -z
+	
 	Skipping "dev-list-books" (does not match filter string)
 	Counting invocations for "prod-list-books"
 	Skipping "dev-create-book" (does not match filter string)
